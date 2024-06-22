@@ -1,0 +1,13 @@
+.navbar {
+  border-bottom: 3px double #25232b;
+  background-color: #f9f1f0;
+  height: 100px;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
