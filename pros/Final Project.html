@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice Cream 🍨</title>
+  </head>
+  <style>
+    body {
+      padding: 10px 100px 100px 100px;
+      background: radial-gradient(
+        circle at 10% 20%,
+        rgb(222, 168, 248) 0%,
+        rgb(168, 222, 248) 21.8%,
+        rgb(189, 250, 205) 35.6%,
+        rgb(243, 250, 189) 52.9%,
+        rgb(250, 227, 189) 66.8%,
+        rgb(248, 172, 172) 90%,
+        rgb(254, 211, 252) 99.7%
+      );
+    }
+    h1 {
+      text-align: center;
+    }
+    .MoreInfo {
+      display: block;
+      margin: 0 auto;
+      margin-top: 25px;
+      padding: 0px;
+      text-decoration: solid;
+      text-align: center;
+      transition: all 200ms ease-in-out;
+      font-size: 18px;
+    }
+    .MoreInfo:hover {
+      text-decoration: underline;
+      opacity: 0.95;
+      cursor: pointer;
+    }
+    p {
+      font-size: 18px;
+      text-align: center;
+      font-family: "Courier New", Courier, monospace;
+      font-weight: bold;
+    }
+    a {
+      font-size: 20px;
+      text-align: center;
+      font-family: "Source Code Pro", monospace;
+    }
+    .CodedPerson {
+      text-align: center;
+      font-size: 16px;
+      font-family: monospace;
+      color: rgba(92, 93, 94, 0.8);
+    }
+    button {
+      color: #ffdffd;
+      padding: 20px 20px;
+      margin: 30px auto;
+      display: block;
+      border: 1px solid #ffdffd;
+      border-radius: 50px;
+      background: #ffdffd;
+      box-shadow: 11px 6px 7px rgba(0, 0, 0, 0.4);
+      color: rgb(0, 0, 0);
+      transition: all 200ms ease-in-out;
+      font-family: "Courier New", Courier, monospace;
+      font-weight: bold;
+    }
+    button:hover {
+      cursor: pointer;
+      background: transparent;
+      color: #000000;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      border-radius: 30px;
+      box-shadow: 11px 6px 7px rgba(0, 0, 0, 0.4);
+    }
+    h2 {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <h1>My world: Ice cream 😀</h1>
+    <h2><em>Rainbow Ice cream Fan Club</em> 😋💗</h2>
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/072/411/original/best-dark-chocolate-ice-cream-recipe-hero-446dacb9d3ce443e8e9880dbd095ef4c.jpg?1679151649"
+      width="300"
+    />
+    <br />
+    <hr />
+    <br />
+    <h2>About ice cream 😋</h2>
+    <p>
+      Ice cream is a frozen dessert, typically made from milk or cream and
+      flavoured with a sweetener, either sugar or an alternative, and a spice,
+      such as cocoa or vanilla, or with fruit such as strawberries or peaches.
+      It can also be made by whisking a flavored cream base and liquid nitrogen
+      together.
+    </p>
+    <a
+      href="https://en.wikipedia.org/wiki/Ice_cream"
+      target="_blank"
+      class="MoreInfo"
+      >Read more on Wikipedia!</a
+    >
+    <br />
+    <br />
+    <h2>What is Rainbow ice cream?🌈</h2>
+    <p>
+      Did you hear about «Rainbow Ice cream»?🤔 well, it's just ice cream but it
+      has a difference.🥰 Imagine you arrive in a ice crem store. What makes you
+      buy ice cream?😃 It's clear! when you see color of them you, You 're
+      encouraged to buy ice cream.😎
+    </p>
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/072/405/original/Unicorn-Ice-Cream-SQUARE-PNG-500x500.jpg?1679150890"
+      width="300"
+    />
+    <br />
+    <br />
+    <h2>For «Rainbow Ice cream Fans»</h2>
+    <p>
+      Try some Ice cream with your friends or your family🍧🌈 (Or maybe alone😆)
+    </p>
+    <br />
+    <button>Buy «Rainbow Ice cream»</button>
+    <br />
+    <p class="CodedPerson">Coded by Parand</p>
+    <script>
+      function buy() {
+        let name = prompt("What's your name?");
+        let email = prompt("What's your email addres?");
+        let emoji = prompt("What's your favorite emoji?");
+        alert(
+          "Thank you " + name + "," + "We'll be in touch with e-mail " + emoji
+        );
+        alert("Be Nice, Like Ice cream 😉💗");
+      }
+      let Rainbow_IceCream = document.querySelector("button");
+      Rainbow_IceCream.addEventListener("click", buy);
+    </script>
+  </body>
+</html>

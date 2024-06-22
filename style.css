@@ -1,0 +1,245 @@
+@media screen and (min-width: 992px) {
+  .image1 {
+    max-width: 400px;
+    margin: 5px 20px 20px 40px;
+  }
+
+  .image2 {
+    max-width: 400px;
+    margin: 5px 20px 20px 40px;
+  }
+}
+
+.navbar {
+  border-bottom: 3px double #25232b;
+  background-color: #f9f1f0;
+  height: 100px;
+}
+
+.infos {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.intro {
+  border-bottom: 1px solid #25232b;
+  background-color: #f9f1f0;
+}
+
+h3 {
+  font-size: 50px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  margin-bottom: 0;
+  color: #25232b;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  margin-bottom: 0;
+  color: #25232b;
+}
+
+h4 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+  color: #25232b;
+}
+
+.wi {
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+  color: #25232b;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.going {
+  color: white;
+  text-decoration: none;
+  border: 1px solid #a0877d;
+  background-color: #a0877d;
+  padding: 15px 10px;
+  border-radius: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+  box-shadow: 11px 9px 14px 2px rgba(0, 0, 0, 0.1);
+}
+.going:hover {
+  color: #25232b;
+  background-color: transparent;
+  border: 1px solid #a0877d;
+  transition: ease-in-out 300ms;
+}
+
+.contact {
+  color: white;
+  text-decoration: none;
+  border: 1px solid #a0877d;
+  background-color: #a0877d;
+  padding: 15px 10px;
+  border-radius: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+  position: absolute;
+}
+.contact:hover {
+  color: #25232b;
+  background-color: transparent;
+  border: 1px solid #a0877d;
+  transition: ease-in-out 300ms;
+}
+
+.navigation-links {
+  margin-top: 30px;
+}
+
+.image1,
+.image2 {
+  height: auto;
+  width: 300px;
+  margin-left: 60px;
+  border-radius: 10%;
+}
+
+.pros {
+  margin-top: 120px;
+}
+
+p {
+  text-align: justify;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  color: #25232b;
+}
+
+.let {
+  text-align: justify;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #25232b;
+}
+
+.pro1,
+.pro2 {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #a0877d;
+  background-color: #a0877d;
+  border-radius: 10px;
+  padding: 12px 7px;
+  margin-right: 20px;
+}
+
+.pro1:hover,
+.pro2:hover {
+  color: #25232b;
+  background-color: transparent;
+  border: 1px sloid #a0877d;
+  transition: ease-in-out 300ms;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 40px;
+  width: 600px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #25232b;
+}
+
+.con2 {
+  margin-top: 80px;
+}
+
+.work-inquiry {
+  border: 1px solid #25232b;
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #deb3ad;
+  padding-left: 40px;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+.nav-link {
+  font-size: 20px;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+footer {
+  text-align: center;
+  border-top: 3px double #24222a;
+  background-color: #f9f1f0 !important;
+  padding-bottom: 20px;
+}
+.foot {
+  text-align: center;
+  margin-top: 10px;
+}
+.icons {
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.open {
+  text-decoration: none;
+  color: #25232b;
+  cursor: pointer;
+}
+.foot2 {
+  text-align: center;
+  background-color: #f9f1f0;
+}
+
+.open:hover {
+  color: #deb3ad;
+}
+
+.git,
+.x,
+.tel,
+.tik {
+  color: #25232b;
+}
