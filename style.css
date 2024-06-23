@@ -200,7 +200,7 @@ h2 {
   margin-left: 10px;
 }
 
-.nav-link {
+.nav-item {
   font-size: 20px;
   font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
@@ -242,4 +242,29 @@ footer {
 .tel,
 .tik {
   color: #25232b;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.about-img {
+  width: 600px;
+  height: auto;
+  padding-left: 70px;
+}
+
+.about-me,
+.title {
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+.phobout {
+  border: 1px solid #deb3ad;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-left: 30px;
+  height: 710px;
+  width: 700px;
 }
