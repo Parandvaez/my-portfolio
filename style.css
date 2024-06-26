@@ -242,19 +242,11 @@ footer {
   border-radius: 2%;
 }
 
-.about-me,
-.title {
-  margin-right: 90px;
-  margin-left: 50px;
-}
-
 .phobout {
   border: 1px solid #deb3ad;
   border-radius: 10px;
   padding-top: 30px;
   padding-left: 30px;
-  height: 700px;
-  width: 400px;
   background-color: #deb3ad;
 }
 
